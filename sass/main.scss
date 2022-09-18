@@ -1,15 +1,19 @@
 @import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/visualy-hidden';
+
 @import './base/common';
+@import './base/reset';
+
 @import './components/section';
 @import './components/container';
-@import './utils/visualy-hidden';
-@import './utils/titles';
+@import './components/titles';
 @import './components/main-button';
-@import './utils/placeholders';
-@import './utils/button-width';
 @import './components/social-networks';
 @import './components/logo';
 @import './layout/header';
+
 @import './layout/hero';
 @import './layout/benefits';
 @import './layout/what-we-do';
