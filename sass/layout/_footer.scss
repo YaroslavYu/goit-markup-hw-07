@@ -1,0 +1,99 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--hero-footer-background-color);
+}
+
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__address-contacts-wrapper {
+  margin-right: 70px;
+}
+
+.page-footer__item {
+  width: 231px;
+}
+
+.page-footer__contact-link {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.page-footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.page-footer__contact-link_white-text {
+  color: var(--footer-logo-hero-mainbackgr-color);
+}
+
+.page-footer__contact-link_grey-text {
+  color: var(--color-footer-contacts);
+}
+
+.page-footer__contact-link_hover:hover,
+.page-footer__contact-link_hover:focus {
+  color: var(--accent-color);
+}
+
+.page-footer__title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--footer-logo-hero-mainbackgr-color);
+}
+
+.list-social-network__link_background-color {
+  background-color: var(--footer-socnetw-background);
+  color: var(--footer-logo-hero-mainbackgr-color);
+}
+
+.page-footer__form-wrapper {
+  margin-left: auto;
+}
+
+.page-footer__form {
+  display: flex;
+}
+
+.page-footer__input-mail {
+  width: 358px;
+  height: 50px;
+
+  background-color: var(--hero-footer-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  padding-left: 16px;
+  margin-right: 12px;
+
+  color: var(--footer-logo-hero-mainbackgr-color);
+}
+
+.page-footer__input-mail::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--color-footer-contacts);
+}
+
+.main-button_footer-width-align {
+  @extend %flex-centered;
+  @include btn-width(200px);
+  width: 200px;
+}
+
+.main-button__text {
+  margin-right: 10px;
+}
+
+.main-button__icon {
+  fill: currentColor;
+}

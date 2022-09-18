@@ -1,0 +1,31 @@
+.list-benefits {
+  display: flex;
+  column-gap: 30px;
+}
+
+.list-benefits__item {
+  width: calc((100% - 90px) / 4);
+}
+
+.list-benefits__iconplace {
+  @extend %flex-centered;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--buttons-portfolio-background-team-color);
+}
+
+.list-benefits__icon {
+  display: block;
+  border-radius: 4px;
+}
+
+.list-benefits__title {
+  color: var(--headers-nav-text-color);
+  margin-bottom: 10px;
+}
+
+.list-benefits__text {
+  font-size: 14px;
+  line-height: 1.71;
+}

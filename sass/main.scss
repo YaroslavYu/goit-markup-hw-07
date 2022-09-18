@@ -1,3 +1,21 @@
-body {
-    color: blueviolet;
-}
+@import './utils/variables';
+@import './base/common';
+@import './components/section';
+@import './components/container';
+@import './utils/visualy-hidden';
+@import './utils/titles';
+@import './components/main-button';
+@import './utils/placeholders';
+@import './utils/button-width';
+@import './components/social-networks';
+@import './components/logo';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/what-we-do';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal-window';
+@import './layout/portfolio-buttons';
+@import './layout/cards-portfolio';

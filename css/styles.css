@@ -93,7 +93,7 @@ img {
     padding-bottom: 94px;
 }
 
-.section__background-light {
+.section_background-light {
     background-color: var(--footer-logo-hero-mainbackgr-color);
 }
 
@@ -124,6 +124,11 @@ img {
     background-color: var(--accent-color);
 
     transition: background-color var(--animation-duration-and-function);
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--hero-button-activate);
 }
 
 /* LOGO  */
@@ -291,11 +296,7 @@ img {
     width: 216px;
 }
 
-
-.main-button:hover,
-.main-button:focus {
-    background-color: var(--hero-button-activate);
-}
+/* section benefits */
 
 .list-benefits {
     display: flex;
@@ -888,7 +889,7 @@ img {
     padding: 63px 24px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    color: var(--footer-logo-hero-mainbackgr-color);
+    color: var(--footer-logo-hero-mainbackgr-color)t;
     background-color: var(--porfolio-background-overlay);
 
     transition: top var(--animation-duration-and-function);
